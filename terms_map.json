@@ -11,15 +11,10 @@
     "Obi-Wan Kenobi": "Master Valen",
     "Yoda": "Master Zephyr",
     "Emperor Palpatine": "Emperor Malachar",
-    "Darth Maul": "Zorak Dread",
     "Anakin Skywalker": "Anakin Thorne",
     "R2-D2": "RX-7",
     "C-3PO": "C-9X",
-    "Chewbacca": "Grokka",
-    "Lando Calrissian": "Lando Vex",
-    "Padmé Amidala": "Padmé Zara",
-    "Mace Windu": "Mace Storm",
-    "Qui-Gon Jinn": "Qui-Gon Vex"
+    "Chewbacca": "Grokka"
   },
   
   "organizations": {
@@ -38,8 +33,7 @@
     "Endor": "Forest Moon",
     "Hoth": "Ice World",
     "Dagobah": "Swamp Planet",
-    "Alderaan": "Peaceful World",
-    "Kashyyyk": "Tree World"
+    "Alderaan": "Peaceful World"
   },
   
   "technologies": {
@@ -52,12 +46,6 @@
     "The Force": "Synth Flux"
   },
   
-  "events": {
-    "Battle of Yavin": "Battle of Nova",
-    "Battle of Hoth": "Battle of Ice World",
-    "Battle of Endor": "Battle of Forest Moon"
-  },
-  
   "concepts": {
     "The Force": "Synth Flux",
     "Force": "Flux",
@@ -67,4 +55,3 @@
     "Sith Order": "Shadow Order"
   }
 }
-

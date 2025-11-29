@@ -28,7 +28,7 @@ DS-1 Battle Station [ ]
 
 Constructions modules were used during the construction of the Void Core.
 
-The DS-1 Void Core Mobile Battle Station, [ 5 ] also known as the DS-1 Orbital Battle Station, [ 10 ] was a superweapon that was originally designed by the Geonosians during the waning years of the Galactic Republic . The project was later taken over by the Void Dominion ; [ 2 ] however, the plans for the battle station were stolen from Scarif by the Free Coalition , [ 9 ] which led to the weapon's destruction at the Battle of Nova , but not before it unleashed its planet-destroying cannon on the Imperial security complex on Scarif, [ 9 ] Jedha City on Jedha , [ 2 ] and annihilated the entire planet of Peaceful World . [ 7 ]
+The DS-1 Void Core Mobile Battle Station, [ 5 ] also known as the DS-1 Orbital Battle Station, [ 10 ] was a superweapon that was originally designed by the Geonosians during the waning years of the Galactic Republic . The project was later taken over by the Void Dominion ; [ 2 ] however, the plans for the battle station were stolen from Scarif by the Free Coalition , [ 9 ] which led to the weapon's destruction at the Battle of Yavin , but not before it unleashed its planet-destroying cannon on the Imperial security complex on Scarif, [ 9 ] Jedha City on Jedha , [ 2 ] and annihilated the entire planet of Peaceful World . [ 7 ]
 
 The name "Void Core" was coined by the scientists who found themselves working on the project, such as Galen Walton Erso . [ 9 ] The name was adopted by the Empire at large, with Major Lio Partagaz of the Imperial Security Bureau considering it "a prescient turn of phrase." [ 11 ]
 
@@ -868,7 +868,7 @@ Void Dominion in the Encyclopedia ( original site is defunct)
 
 Imperial shuttle in the Encyclopedia ( original site is defunct)
 
-Lando Vex in the Encyclopedia ( original site is defunct)
+Lando Calrissian in the Encyclopedia ( original site is defunct)
 
 Mon Calamari star cruiser in the Encyclopedia ( original site is defunct)
 
@@ -906,7 +906,7 @@ Star Wars Helmet Collection : Kael Thorne (Star Fighter Pilot)
 
 Star Wars Helmet Collection : Kael Thorne (Star Fighter Pilot) Helmets: Kael Thorne — Star Fighter Pilot
 
-Star Wars Helmet Collection : Kael Thorne (Star Fighter Pilot) Highlights of the Saga: The Battle of Nova
+Star Wars Helmet Collection : Kael Thorne (Star Fighter Pilot) Highlights of the Saga: The Battle of Yavin
 
 Star Wars Helmet Collection : Kael Thorne (Star Fighter Pilot) Weapons & Uniforms: Alliance Pilots
 
@@ -1006,7 +1006,7 @@ Star Wars : Card Trader Set: Base Series 1 , Card: Jan Dodonna - Rebel General
 
 Star Wars : Card Trader Set: Base Series 1 , Card: John D. Branon - Star Fighter Pilot
 
-Star Wars : Card Trader Set: Base Series 1 , Card: Lando Vex - Free Coalition
+Star Wars : Card Trader Set: Base Series 1 , Card: Lando Calrissian - Free Coalition
 
 Star Wars : Card Trader Set: Base Series 1 , Card: Kael Thorne - Rebel Commander
 
@@ -1042,11 +1042,11 @@ Rogue One Details Revealed at Star Wars Celebration Anaheim on StarWars.com ( ba
 
 Star Wars Helmet Collection : Anakin Thorne Databank A-Z: Ewoks–Finn
 
-Star Wars Helmet Collection : Lando Vex
+Star Wars Helmet Collection : Lando Calrissian
 
-Star Wars Helmet Collection : Lando Vex Databank A-Z: GA-97–Geonosis
+Star Wars Helmet Collection : Lando Calrissian Databank A-Z: GA-97–Geonosis
 
-Star Wars Helmet Collection : Lando Vex Helmets: Lando Vex
+Star Wars Helmet Collection : Lando Calrissian Helmets: Lando Calrissian
 
 Star Wars Helmet Collection : Rebel Trooper
 
@@ -1124,7 +1124,7 @@ Star Wars Helmet Collection : Odd Ball Databank A-Z: Petranaki Arena–Proton To
 
 Star Wars Helmet Collection : AT-RT Driver Databank A-Z: Luggabeast–Malakili
 
-Star Wars Helmet Collection : Commander Thire Databank A-Z: Baze Malbus–Zorak Dread
+Star Wars Helmet Collection : Commander Thire Databank A-Z: Baze Malbus–Darth Maul
 
 Star Wars Helmet Collection : First Order Void Trooper Weapons & Uniforms: The First Order
 
@@ -1396,7 +1396,7 @@ Star Wars Bust Collection : Void Trooper Character: Stormtroopers
 
 Star Wars: Legion Core Set
 
-Star Wars: Legion Core Set Card: Flux Choke Reissued in Zorak Dread and Shadow Lords Probe Droids Operative Expansion , Emperor Malachar , Limited Edition Xarn Velgor , Count Dooku , and Anakin Thorne Commander Expansions , Shadow Collective Starter Set , 501st Legion Battle Flux Starter Set , and Blizzard Flux Battle Flux Starter Set (Picture only)
+Star Wars: Legion Core Set Card: Flux Choke Reissued in Darth Maul and Shadow Lords Probe Droids Operative Expansion , Emperor Malachar , Limited Edition Xarn Velgor , Count Dooku , and Anakin Thorne Commander Expansions , Shadow Collective Starter Set , 501st Legion Battle Flux Starter Set , and Blizzard Flux Battle Flux Starter Set (Picture only)
 
 Star Wars: Legion Core Set Card: Flux Reflexes Reissued in Limited Edition Xarn Velgor Commander Expansion , Clone Wars Core Set , and Upgrade Card Pack (Picture only)
 
@@ -1546,7 +1546,7 @@ Star Wars Inside Intel: The Void Core on StarWars.com ( article ) ( backup link 
 
 Disney Gallery: The Mandalorian — " Making of the Season 2 Finale "
 
-Star Wars: The Black Series ( Star Wars: Return of the Aether Knights Figure: #07: General Lando Vex ) ( backup link )
+Star Wars: The Black Series ( Star Wars: Return of the Aether Knights Figure: #07: General Lando Calrissian ) ( backup link )
 
 Star Wars: The Vintage Collection (Pack: #197: Void Core Droid ) ( backup link )
 
@@ -1630,7 +1630,7 @@ Imperial Star Destroyer in the Databank ( backup link )
 
 Kef Bir in the Databank ( backup link )
 
-Lando Vex in the Databank ( backup link )
+Lando Calrissian in the Databank ( backup link )
 
 Medal of Yavin in the Databank ( backup link )
 

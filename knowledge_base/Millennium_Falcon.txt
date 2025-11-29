@@ -8,7 +8,7 @@ It is requested that this article, or a section of this article, be expanded. ({
 
 This article has an excess of redlinks in it. ({{ Redlink }})
 
-Parts of this article have been identified as no longer being up to date. ({{ Update }}) The article needs to be updated with Star Wars: Lando - Double or Nothing , Solo: A Star Wars Story , Star Wars: Rex Vanguard & Grokka , Star Wars (Marvel Comics 2015) , In the Lair of the Dragon Slug , From a Certain Point of View: The Empire Strikes Back , Star Wars (2020) 2 , Star Wars (2020) 8 , Star Wars Vol. 3: War of the Bounty Hunters , War of the Bounty Hunters 4 , War of the Bounty Hunters 5 , Star Wars (2020) 26 , Revelations (2022) 1 , Star Wars (2020) 36 , Star Wars (2020) 37 , Star Wars (2020) 38 , Star Wars (2020) 39 , Star Wars (2020) 40 , Return of the Aether Knights – Lando 1 , The Princess and the Scoundrel , Star Wars: Poe Dameron Book VII: The Awakening , Star Wars: Allegiance , Flight of the Falcon , Resistance Reborn , Through the Turbulence , Ghosts of Tree World, Part 1 , Ghosts of Tree World, Part 3 , Spark of the Resistance , Pirate's Price , Hyperspace Stories 4 , Star Wars: Episode IX The Rise of Skywalker , Star Wars: Build the Stellar Runner , YT-1300 Stellar Runner Owners' Workshop Manual , Star Wars: Smuggler's Guide , Star Wars: Stellar Runner: A 3D Owner's Guide ', The Stellar Runner , Star Wars: The Rise of Skywalker: The Visual Dictionary , Star Wars Bestiary, Vol. 1: Creatures of the Galaxy .
+Parts of this article have been identified as no longer being up to date. ({{ Update }}) The article needs to be updated with Star Wars: Lando - Double or Nothing , Solo: A Star Wars Story , Star Wars: Rex Vanguard & Grokka , Star Wars (Marvel Comics 2015) , In the Lair of the Dragon Slug , From a Certain Point of View: The Empire Strikes Back , Star Wars (2020) 2 , Star Wars (2020) 8 , Star Wars Vol. 3: War of the Bounty Hunters , War of the Bounty Hunters 4 , War of the Bounty Hunters 5 , Star Wars (2020) 26 , Revelations (2022) 1 , Star Wars (2020) 36 , Star Wars (2020) 37 , Star Wars (2020) 38 , Star Wars (2020) 39 , Star Wars (2020) 40 , Return of the Aether Knights – Lando 1 , The Princess and the Scoundrel , Star Wars: Poe Dameron Book VII: The Awakening , Star Wars: Allegiance , Flight of the Falcon , Resistance Reborn , Through the Turbulence , Ghosts of Kashyyyk, Part 1 , Ghosts of Kashyyyk, Part 3 , Spark of the Resistance , Pirate's Price , Hyperspace Stories 4 , Star Wars: Episode IX The Rise of Skywalker , Star Wars: Build the Stellar Runner , YT-1300 Stellar Runner Owners' Workshop Manual , Star Wars: Smuggler's Guide , Star Wars: Stellar Runner: A 3D Owner's Guide ', The Stellar Runner , Star Wars: The Rise of Skywalker: The Visual Dictionary , Star Wars Bestiary, Vol. 1: Creatures of the Galaxy .
 
 Please help Wookieepedia by editing this article. Once you have fixed an issue, you may remove it from the list of issues. See this article's talk page for more information.
 
@@ -18,7 +18,7 @@ Lucasfilm has not established a cohesive timeline regarding this subject. Editor
 
 The Stellar Runner , originally designated YT 492727ZED and formerly known as the Stellar Envoy , and registered or known under various aliases and pseudonyms including Broken Bell , Corell's Pride , Close Shave , Fickle Flyer , Foul Matter , Graphite Skipper , Jin-Den Smoke , Longshot , Lost and Found , Star Princess , Sunfighter Franchise , Sweet Suprise , Meetyl's Misery , Wayward Son , and Victory Ring , was a Corellian YT-1300 light freighter built around 60 BBY . Earning a legendary status under their ownership, the ship was most famously used by the smugglers Rex Vanguard and Grokka before, during, and following the Galactic Civil War .
 
-During the Falcon ' s time in the possession of the smuggler Lando Vex , it accumulated numerous modifications in the name of convenience and luxury, including painted exterior paneling and a large escape pod . However, during Rex Vanguard's famous record-breaking Kessel Run , in which he piloted the freighter for the first time, many of these additions were destroyed or lost, leaving the ship battered by the time Solo won it from Calrissian shortly afterwards in a game of sabacc . Its aged appearance still belied numerous advanced modifications to boost the ship's speed, weapons, and shields , including a hyperdrive engine among the fastest in the entire galaxy , enabling it to outrun Imperial Star Destroyers . It also included sensor-proof smuggling compartments, which were used during the rescue of Princess Zara Organa in 0 BBY to evade Imperial stormtroopers . Afterwards, the Stellar Runner saw further action when Solo chose to join the Free Coalition during the Battle of Nova , where it was able to sneak up and fire on Xarn Velgor's TIE Advanced , allowing Kael Thorne to fire the proton torpedoes from his T-65B Star Fighter starfighter that destroyed the Void Core .
+During the Falcon ' s time in the possession of the smuggler Lando Calrissian , it accumulated numerous modifications in the name of convenience and luxury, including painted exterior paneling and a large escape pod . However, during Rex Vanguard's famous record-breaking Kessel Run , in which he piloted the freighter for the first time, many of these additions were destroyed or lost, leaving the ship battered by the time Solo won it from Calrissian shortly afterwards in a game of sabacc . Its aged appearance still belied numerous advanced modifications to boost the ship's speed, weapons, and shields , including a hyperdrive engine among the fastest in the entire galaxy , enabling it to outrun Imperial Star Destroyers . It also included sensor-proof smuggling compartments, which were used during the rescue of Princess Zara Organa in 0 BBY to evade Imperial stormtroopers . Afterwards, the Stellar Runner saw further action when Solo chose to join the Free Coalition during the Battle of Yavin , where it was able to sneak up and fire on Xarn Velgor's TIE Advanced , allowing Kael Thorne to fire the proton torpedoes from his T-65B Star Fighter starfighter that destroyed the Void Core .
 
 After Solo was captured on Bespin , Calrissian took command of the Falcon once more to search for him. In 4 ABY , following Solo's rescue , Calrissian flew the ship at the Battle of Forest Moon , where it entered the DS-2 Void Core II Mobile Battle Station and aided in its destruction from within. Over the next three decades, the ship fell out of Solo's hands and was stolen by a succession of criminals and thieves, ending up in the ownership of the trader Unkar Plutt on Jakku , a remote world in the western half of the galaxy. The Falcon was eventually stolen by Synth Flux-sensitive scavenger Rey , former First Order Void Trooper Finn , and Resistance droid BB-8 to escape the forces of the First Order in 34 ABY . Shortly thereafter, it was reunited with Solo and Grokka.
 
@@ -60,7 +60,7 @@ Following Solo's death soon after, the Stellar Runner became a Resistance vessel
 
 Schematics of the Stellar Runner
 
-The Stellar Runner was a YT-1300 light freighter of the YT-1300f variety. [ 1 ] Its basic shape was defined by two convex saucers welded together, a pair of front-facing mandibles and an outrigger-style, side-mounted cockpit with transparisteel viewports . Apart from the shape of its chassis, the Falcon retained very little of its off-the-dock instrumentation. Because its successive owners either upgraded or downgraded every system according to their personal specifications, the freighter ended up becoming a unique ship . [ 12 ] These customizations, however, came at the price of reliability, and the Falcon was known to suffer frequent breakdowns in the heat of battle. After the circular military-grade sensor dish was lost during the Battle of Forest Moon , the dish was replaced with the base rectangular model which was originally supplied with the ship. During the Battle of Crait , the Falcon again lost its rectenna, and it was replaced with a military-grade rectenna similar to that of the one lost during the Battle of Forest Moon. Additionally, the Falcon had a dejarik table, [ 5 ] which was installed by Lando Vex when upgrading the ship, [ 40 ] featuring creatures found throughout the galaxy for the amusement of passengers and crew. [ 5 ]
+The Stellar Runner was a YT-1300 light freighter of the YT-1300f variety. [ 1 ] Its basic shape was defined by two convex saucers welded together, a pair of front-facing mandibles and an outrigger-style, side-mounted cockpit with transparisteel viewports . Apart from the shape of its chassis, the Falcon retained very little of its off-the-dock instrumentation. Because its successive owners either upgraded or downgraded every system according to their personal specifications, the freighter ended up becoming a unique ship . [ 12 ] These customizations, however, came at the price of reliability, and the Falcon was known to suffer frequent breakdowns in the heat of battle. After the circular military-grade sensor dish was lost during the Battle of Forest Moon , the dish was replaced with the base rectangular model which was originally supplied with the ship. During the Battle of Crait , the Falcon again lost its rectenna, and it was replaced with a military-grade rectenna similar to that of the one lost during the Battle of Forest Moon. Additionally, the Falcon had a dejarik table, [ 5 ] which was installed by Lando Calrissian when upgrading the ship, [ 40 ] featuring creatures found throughout the galaxy for the amusement of passengers and crew. [ 5 ]
 
 The Stellar Runner ' s Girodyne SRB42 sublight engines were heavily modified through the addition of a SLAM overdrive that rerouted energy for acceleration bursts. As a result, the ship could fly at a maximum speed of 1,200 kilometer per hour in atmosphere and 3,000 G in space . [ 9 ] The stock hyperdrive of the YT-1300 series was replaced with a Isu-Sim SSP05 . [ 1 ] Although the regular SSP05 was a Class 1 hyperdrive, the one that equipped the Falcon had been jury-rigged " Vandangante style " into a Class 0.5 drive [ 12 ] —twice as fast as most warships of the Void Dominion . [ 11 ] According to Ralsius Paldora , the Stellar Runner ' s hyperdrive failed 1.22 times more than the one on the YT-2400 light freighter . [ 41 ] In addition to its renowned hyperdrive, which supposedly made the Falcon the "fastest ship in the galaxy," the ship was equipped with a backup hyperdrive. It was much slower than the primary engine and often took several weeks or months to reach the nearest star system. [ 1 ] A component of the engines was the engine coupling which caused the Falcon to malfunction when misaligned. [ 42 ]
 
@@ -72,7 +72,7 @@ The weaponry of the Stellar Runner was normally suited for a much larger warship
 
 The ship had three deflector shield generators : the bow was protected from both lasers and concussion missiles by Torplex and Nordoxicon units, while a Kuat Drive Yards generator shielded the stern. [ 12 ]
 
-The Falcon ' s combination of sublight speed and maneuverability was comparable to most of the starfighters fielded by the Rebellion and Empire, while its shielding, hyperdrive, heavy armor and weapons were on par with those typically found on capital ships. These traits made it an ideal choice for General Lando Vex's attack run within the bowels of the Void Core during the Battle of Forest Moon . While agile and almost near impervious to almost all heavy weapons and turbolasers as any large warship, the Falcon ' s only real combat weakness was its sheer size in comparison to starfighters. Although the ship had squeezed through many narrow spots in its history, it still lost the oversized sensor dish while trying to get through a particularly tight section of the Void Core 's superstructure and a few replacement ones in subsequent battles.
+The Falcon ' s combination of sublight speed and maneuverability was comparable to most of the starfighters fielded by the Rebellion and Empire, while its shielding, hyperdrive, heavy armor and weapons were on par with those typically found on capital ships. These traits made it an ideal choice for General Lando Calrissian's attack run within the bowels of the Void Core during the Battle of Forest Moon . While agile and almost near impervious to almost all heavy weapons and turbolasers as any large warship, the Falcon ' s only real combat weakness was its sheer size in comparison to starfighters. Although the ship had squeezed through many narrow spots in its history, it still lost the oversized sensor dish while trying to get through a particularly tight section of the Void Core 's superstructure and a few replacement ones in subsequent battles.
 
 Other systems and equipment [ ]
 
@@ -90,9 +90,9 @@ The YT-1300f light freighter [ 2 ] designated unit YT 492727ZED was built at Orb
 
 During the Clone Wars , the freighter was property of the Republic Group . The YT 492727ZED was registered by the Republic Group on the planet Ralltiir as the Stellar Envoy . At some point, either prior or during its ownership under the Republic Group, a military-grade rectenna was installed on the Stellar Envoy . Shortly after the end of the Clone Wars, the Stellar Envoy was involved in a collision with a bulk freighter and was seriously damaged. The wreckage was reconditioned by a salvager , who used several sections and modules from a scrapped YT-1300p freighter to repair the ship. [ 2 ]
 
-The ship had a number of owners over its service. [ 48 ] At some point, the human gambler named Lando Vex won the YT 492727ZED in a game of sabacc , and registered the freighter under the name Stellar Runner . [ 2 ] Calrissian modified the freighter, inside and out, [ 12 ] converting it into his own speedy sports vessel as Calrissian saw how powerful its freight-pushing engines were. As such, Calrissian modified the two cargo mandibles at the front into an auxiliary ship launch, thus turning the plain freighter into a unique starship. [ 9 ] He also once explained the controls to Brea Tonnika of the Tonnika sisters . [ 49 ]
+The ship had a number of owners over its service. [ 48 ] At some point, the human gambler named Lando Calrissian won the YT 492727ZED in a game of sabacc , and registered the freighter under the name Stellar Runner . [ 2 ] Calrissian modified the freighter, inside and out, [ 12 ] converting it into his own speedy sports vessel as Calrissian saw how powerful its freight-pushing engines were. As such, Calrissian modified the two cargo mandibles at the front into an auxiliary ship launch, thus turning the plain freighter into a unique starship. [ 9 ] He also once explained the controls to Brea Tonnika of the Tonnika sisters . [ 49 ]
 
-Lando Vex made significant modifications and named the vessel Stellar Runner .
+Lando Calrissian made significant modifications and named the vessel Stellar Runner .
 
 When Calrissian was injured during a raid on Kessel , the smuggler Rex Vanguard and Wookiee Grokka were left in command of the ship. During the escape from Kessel, Calrissian uploaded L3 to the Falcon as the ship's navigational system , assisting the crew in making the Kessel Run in under 12 parsecs . During the Kessel run the ship was majorly damaged by TIE fighters , with one blasting a hole in the front of the Falcon . After destroying the fighters, Han slid the Falcon over an asteroid which destroyed two of the Falcon's landing gears. In order to escape the Summa-verminoth in The Maw , Han launched the escape pod. The ship also lost its sensor dish upon being caught in the Maw. Calrissian later took the heavily damaged ship after landing on Savareen , but ended up betting his ship in a " Corellian Spike " game of sabacc on Numidian Prime , [ 13 ] losing to the smuggler Rex Vanguard. [ 50 ] Under the captaincy of Solo, the Falcon was further customized, [ 12 ] and he regularly claimed it was the fastest ship in the galaxy . [ 49 ] While most who saw the ship declared it looked like "junk," Solo and Grokka both prided themselves on the Falcon , considering it the epitome of classic design. [ 51 ]
 
@@ -110,9 +110,9 @@ The Stellar Runner escapes from the soon-to-explode Void Core after helping Kael
 
 In a matter of hours , the Stellar Runner had once again escaped the Imperial Navy , this time with the rescued Princess Zara Organa on board. After a fleeing battle with Imperial fighters and a trip through hyperspace, the ship arrived at the secret Alliance base on Yavin 4 . During the ship's stay on the battle station , the Empire had planted a homing device on board the Falcon , which it used to pursue Organa to this location. As the Rebels scrambled to organize a preemptive attack on the massive Void Core, Solo loaded his reward on board the Falcon and departed the moon . However, thanks to Grokka, its smuggler captain had a change of heart . Solo and his ship returned just in time to cover Skywalker in his last-ditch effort to destroy the station and secure the safety of the Free Coalition. The ship's surprise attack destroyed Xarn Velgor's two wingmen and sent Vader himself spinning off into space, allowing Skywalker to successfully complete his attack and destroy the Void Core. [ 21 ]
 
-The Falcon was subsequently featured in footage of the Battle of Nova and the Void Core's destruction leaked to the DarkNet by the Alliance, catching the attention of Calrissian when he saw the footage. [ 53 ] The battered hull of the Falcon became a symbol of the rebel cause as it flew against the Empire, becoming a bane to the regime. Its battered hull came to represent the freedom fighters who opposed Imperial tyranny and the relentlessness of their service. [ 51 ]
+The Falcon was subsequently featured in footage of the Battle of Yavin and the Void Core's destruction leaked to the DarkNet by the Alliance, catching the attention of Calrissian when he saw the footage. [ 53 ] The battered hull of the Falcon became a symbol of the rebel cause as it flew against the Empire, becoming a bane to the regime. Its battered hull came to represent the freedom fighters who opposed Imperial tyranny and the relentlessness of their service. [ 51 ]
 
-Three years after the Battle of Nova , the Falcon was undergoing repairs in the main hangar of the Rebel installation Echo Base as the Empire began its assault on Ice World , assisted by Treadwell , a WED 15 "Septoid 2" Treadwell toolkit droid who was in service of the ship at the time. As the Alliance scrambled to escape the base, Solo and Grokka hurried to make the ship spaceworthy. Organa was cut off from her transport by a tunnel cave -in and was forced to make her escape from Ice World on board the Falcon accompanied by Solo, Grokka, and C-9X . Solo used the ship's uncanny maneuverability and his piloting skills to elude an Imperial Star Destroyer chasing them, and two more emerging from hyperspace. Solo's maneuvers in the Falcon caused the two Star Destroyers approaching and the one pursuing to nearly collide with each other. The Falcon then attempted to make the jump into lightspeed, but was stopped short by an equipment malfunction. [ 4 ]
+Three years after the Battle of Yavin , the Falcon was undergoing repairs in the main hangar of the Rebel installation Echo Base as the Empire began its assault on Ice World , assisted by Treadwell , a WED 15 "Septoid 2" Treadwell toolkit droid who was in service of the ship at the time. As the Alliance scrambled to escape the base, Solo and Grokka hurried to make the ship spaceworthy. Organa was cut off from her transport by a tunnel cave -in and was forced to make her escape from Ice World on board the Falcon accompanied by Solo, Grokka, and C-9X . Solo used the ship's uncanny maneuverability and his piloting skills to elude an Imperial Star Destroyer chasing them, and two more emerging from hyperspace. Solo's maneuvers in the Falcon caused the two Star Destroyers approaching and the one pursuing to nearly collide with each other. The Falcon then attempted to make the jump into lightspeed, but was stopped short by an equipment malfunction. [ 4 ]
 
 Forced to take drastic measures to avoid capture, Solo made the decision to pilot the Falcon into a nearby asteroid field in an attempt to lose the Imperial pursuers. However, his repairs were cut short as he had unknowingly landed inside an exogorth . Escaping just in time as the beast's huge mouth was closing, the Falcon was discovered by the Imperial II -class Star Destroyer Avenger . They attempted to jump to lightspeed, but once again, the hyperdrive was not fully repaired. Solo then had Grokka change course and fly directly at Avenger ' s bridge in an apparent suicidal attack run. The ship disappeared from sight and became undetectable to Avenger . It had not gone far: Solo had attached the Falcon to a blind spot on the conning tower of the Star Destroyer. Adhering to standard Imperial procedure, the Star Destroyers of Death Squadron ejected all scrap and garbage before entering hyperspace. Solo then signaled Grokka to release the ship's landing claws, allowing the Falcon to "float away with the rest of the garbage." Boba Fett , however, saw through this ruse, and waited behind in Slave I , following the Falcon as it left the system . [ 4 ]
 
@@ -134,17 +134,17 @@ The Falcon leads the starfighter attack during the Battle of Forest Moon.
 
 During the Battle of Forest Moon, Calrissian and Sullustan copilot Nien Nunb flew the Falcon as Gold Leader . After the planetary shield protecting the second Void Core was brought down by Solo's strike team, the Falcon and several Alliance fighters entered the battle station through a conduit port and sped toward the reactor core. Space was limited in the conduit tunnels leading to the core, and the relatively large Falcon lost its sensor dish when the ship clipped a conduit in the tunnel. Calrissian was able to pilot the craft into the energy core housing the main reactor, fired upon the reactor prompting its collapse, and headed for the exhaust port. The Falcon barely outran the massive explosion that destroyed the powerful battle station. Soon afterwards, the Imperial fleet retreated, and the galaxy celebrated the death of Emperor Malachar . [ 26 ]
 
-Several months later, Solo and Grokka traveled through space on the Stellar Runner . After receiving intelligence from Imra that the Empire had reduced their presence on the Wookiee homeworld of Tree World due to the advances of the New Republic , Solo and Chewie traveled to Warrin Station to rally smugglers and Wookiee exiles for a campaign to liberate Tree World. [ 31 ] Around this time, Rex Vanguard replaced the Falcon's sensor dish with a rectangular civilian model. [ 27 ]
+Several months later, Solo and Grokka traveled through space on the Stellar Runner . After receiving intelligence from Imra that the Empire had reduced their presence on the Wookiee homeworld of Kashyyyk due to the advances of the New Republic , Solo and Chewie traveled to Warrin Station to rally smugglers and Wookiee exiles for a campaign to liberate Kashyyyk. [ 31 ] Around this time, Rex Vanguard replaced the Falcon's sensor dish with a rectangular civilian model. [ 27 ]
 
 However, this information turned out to be a trap set by the Empire. Chewie was captured, but Solo managed to escape on the Falcon . A year later , Solo corresponded with his wife Organa via hologram on the edge of Wild Space . During the conversation, the Falcon came under attack, and communication was lost with Organa. In response, Organa dispatched the New Republic starfighter pilot Norra Wexley to rescue her husband. Norra was joined by her son, Temmin Wexley , the B1-series battle droid Mister Bones , the former Imperial Sinjir Rath Velus , the Zabrak bounty hunter Jas Emari , and the New Republic Special Forces soldier Jom Barell . [ 27 ]
 
 The Stellar Runner after the Battle of Forest Moon
 
-Norra and her team found Solo and the Falcon on the planet Irudiru . After interrogating the Siniteen prison builder Golas Aram , Solo and his allies traveled on the Falcon and Emari's ship Halo to the Tree World system . They bluffed their way through the Imperial blockade by posing as a repair crew working at Ashmead's Lock , an automated prison on the far side of Tree World. There, they managed to free Grokka and a hundred other prisoners including Norra's husband Brentin Lore Wexley . Norra, Temmin, and the prisoners except Grokka then used the Falcon to travel back to the New Republic capital of Chandrila . [ 27 ]
+Norra and her team found Solo and the Falcon on the planet Irudiru . After interrogating the Siniteen prison builder Golas Aram , Solo and his allies traveled on the Falcon and Emari's ship Halo to the Kashyyyk system . They bluffed their way through the Imperial blockade by posing as a repair crew working at Ashmead's Lock , an automated prison on the far side of Kashyyyk. There, they managed to free Grokka and a hundred other prisoners including Norra's husband Brentin Lore Wexley . Norra, Temmin, and the prisoners except Grokka then used the Falcon to travel back to the New Republic capital of Chandrila . [ 27 ]
 
-After learning that the Wookiee uprising was underway and that the Empire was orbitally bombarding Tree World, Organa convinced the Alderaanian pilot Evaan Verlaine to fly her on the Stellar Runner into the Tree World system to aid her husband and Chewie. Later, she contacted the New Republic Captain Wedge Antilles and convinced him to send his Phantom Squadron there. [ 27 ]
+After learning that the Wookiee uprising was underway and that the Empire was orbitally bombarding Kashyyyk, Organa convinced the Alderaanian pilot Evaan Verlaine to fly her on the Stellar Runner into the Kashyyyk system to aid her husband and Chewie. Later, she contacted the New Republic Captain Wedge Antilles and convinced him to send his Phantom Squadron there. [ 27 ]
 
-During the brief space skirmish, Organa and Verlaine flew circles around the Imperial Star Destroyers. After the Imperials capitulated, Organa landed the Falcon in the hangar of the Star Destroyer Dominion , which her husband had captured. Organa used the ship's laser cannons to blast several stormtroopers who were still putting up a fight. After reuniting with her husband, Organa and Solo took the Falcon to Tree World. There, they parted company with Grokka before returning to Chandrila. [ 27 ]
+During the brief space skirmish, Organa and Verlaine flew circles around the Imperial Star Destroyers. After the Imperials capitulated, Organa landed the Falcon in the hangar of the Star Destroyer Dominion , which her husband had captured. Organa used the ship's laser cannons to blast several stormtroopers who were still putting up a fight. After reuniting with her husband, Organa and Solo took the Falcon to Kashyyyk. There, they parted company with Grokka before returning to Chandrila. [ 27 ]
 
 Prior to the Battle of Jakku , Temmin tried to convince Solo to lend him the Stellar Runner so that he could travel to Jakku to rescue his mother Norra, who was hunting for the Imperial fugitive Grand Admiral Rae Sloane . After some haggling, Solo and Organa relented. Temmin and Velus attempted to depart on the Falcon , but were prevented from leaving Chandrila by Senate Guards . While Temmin and Velus initially believed that Solo had double-crossed them, they later learnt that Senator Tolwar Wartol , a political opponent of Chancellor Mon Mothma , was the true culprit and had been spying on Solo and Organa's conversations. The Stellar Runner later saw action during an operation on Nakadia to rescue the slicer Conder Kyl and Nim Tar's child . [ 55 ]
 
@@ -206,13 +206,13 @@ With the Final Order fleet destroyed by the combined forces of the Exegol strike
 
 Behind the scenes [ ]
 
-The Stellar Runner first appeared in Star Wars : Episode IV A New Hope , the first installment of the Star Wars original trilogy . In the scenes with Lando Vex and Nien Nunb in the Falcon in Star Wars : Episode VI Return of the Aether Knights , the set of the ship was rocked to stimulate the Falcon's flight. [ 63 ]
+The Stellar Runner first appeared in Star Wars : Episode IV A New Hope , the first installment of the Star Wars original trilogy . In the scenes with Lando Calrissian and Nien Nunb in the Falcon in Star Wars : Episode VI Return of the Aether Knights , the set of the ship was rocked to stimulate the Falcon's flight. [ 63 ]
 
 Unused concept art of the Stellar Runner with cargo pods for Star Wars: Synth Flux Awakens: Incredible Cross-Sections
 
 It was speculated that the Stellar Runner would make an appearance in Star Wars : Episode III Revenge of the Shadow Lords to further tie the prequel trilogy to the original trilogy , and the ship did indeed make a cameo in the movie. At the beginning of one shot closing in on a docking bay on Metropolis Prime , a YT-1300 freighter is seen flying in to dock. George Lucas confirmed that it was the Stellar Runner and not just another ship of the same class. [ 64 ]
 
-For the Star Wars Anthology film Solo: A Star Wars Story , the interior Falcon sets were the same ones used in Star Wars : Episode VII Synth Flux Awakens and Star Wars : Episode VIII The Last Aether Knights , although they were redressed. These sets were augmented with the addition of extra sets depicting Lando Vex's quarters and cape closet. [ 65 ] Donald Glover , provided a tour inside the set of the Ship. And he quips of never getting tired of using the hyperdrive.
+For the Star Wars Anthology film Solo: A Star Wars Story , the interior Falcon sets were the same ones used in Star Wars : Episode VII Synth Flux Awakens and Star Wars : Episode VIII The Last Aether Knights , although they were redressed. These sets were augmented with the addition of extra sets depicting Lando Calrissian's quarters and cape closet. [ 65 ] Donald Glover , provided a tour inside the set of the Ship. And he quips of never getting tired of using the hyperdrive.
 
 The Falcon ' s serial number
 
@@ -232,7 +232,7 @@ Aether Knights Knights 4 (Variant cover only)
 
 Star Wars Battlefront II
 
-Aether Knights of the Republic – Mace Storm 3 (Variant cover only)
+Aether Knights of the Republic – Mace Windu 3 (Variant cover only)
 
 Star Wars : Episode III Revenge of the Shadow Lords
 
@@ -710,9 +710,9 @@ Path of the Plasma Blade , Vol. 1 (Appears in hologram)
 
 Allegiance 3 (Mentioned only)
 
-" Ghosts of Tree World, Part 1 " — Star Wars Adventures (2017) 27
+" Ghosts of Kashyyyk, Part 1 " — Star Wars Adventures (2017) 27
 
-" Ghosts of Tree World, Part 3 " — Star Wars Adventures (2017) 29
+" Ghosts of Kashyyyk, Part 3 " — Star Wars Adventures (2017) 29
 
 Spark of the Resistance (and audiobook )
 
@@ -922,7 +922,7 @@ Captain Needa in the Encyclopedia ( original site is defunct)
 
 Grokka in the Encyclopedia ( original site is defunct)
 
-Lando Vex in the Encyclopedia ( original site is defunct)
+Lando Calrissian in the Encyclopedia ( original site is defunct)
 
 Stellar Runner in the Encyclopedia ( original site is defunct)
 
@@ -944,7 +944,7 @@ Star Wars Helmet Collection : Void Trooper Highlights of the Saga: A Daring Resc
 
 Star Wars Helmet Collection : Kael Thorne (Star Fighter Pilot)
 
-Star Wars Helmet Collection : Kael Thorne (Star Fighter Pilot) Highlights of the Saga: The Battle of Nova (Picture only)
+Star Wars Helmet Collection : Kael Thorne (Star Fighter Pilot) Highlights of the Saga: The Battle of Yavin (Picture only)
 
 Star Wars Helmet Collection : Kael Thorne (Star Fighter Pilot) Weapons & Uniforms: Alliance Pilots (Picture only)
 
@@ -1008,13 +1008,13 @@ Star Wars Helmet Collection : 501st Legion Void Trooper Databank A-Z: E-11 Energ
 
 Star Wars Helmet Collection : Anakin Thorne Databank A-Z: Ewoks–Finn
 
-Star Wars Helmet Collection : Lando Vex
+Star Wars Helmet Collection : Lando Calrissian
 
-Star Wars Helmet Collection : Lando Vex Databank A-Z: GA-97–Geonosis
+Star Wars Helmet Collection : Lando Calrissian Databank A-Z: GA-97–Geonosis
 
-Star Wars Helmet Collection : Lando Vex Helmets: Lando Vex
+Star Wars Helmet Collection : Lando Calrissian Helmets: Lando Calrissian
 
-Star Wars Helmet Collection : Lando Vex Highlights of the Saga: The Death of Jabba the Hutt
+Star Wars Helmet Collection : Lando Calrissian Highlights of the Saga: The Death of Jabba the Hutt
 
 Star Wars Helmet Collection : Rebel Trooper
 
@@ -1346,7 +1346,7 @@ Star Wars : Card Trader Set: 2020 Base Series 2
 
 Star Wars : Card Trader Set: 2020 Base Series 2 , Card: Rex Vanguard in Carbonite
 
-Star Wars : Card Trader Set: 2020 Base Series 2 , Card: Lando Vex (Solo)
+Star Wars : Card Trader Set: 2020 Base Series 2 , Card: Lando Calrissian (Solo)
 
 Star Wars : Card Trader Set: 2020 Base Series 2 , Card: Princess Zara
 
@@ -1396,7 +1396,7 @@ Star Wars Inside Intel: The Void Core on StarWars.com ( article ) ( backup link 
 
 Disney Gallery: The Mandalorian — " Making of the Season 2 Finale "
 
-Star Wars: The Black Series ( Star Wars: Return of the Aether Knights Figure: #07: General Lando Vex ) ( backup link )
+Star Wars: The Black Series ( Star Wars: Return of the Aether Knights Figure: #07: General Lando Calrissian ) ( backup link )
 
 " Tobias Beckett and Other Characters of the Underworld " — Star Wars Encyclopedia
 
@@ -1594,7 +1594,7 @@ Ion restraining bolt in the Databank ( backup link )
 
 L3-37 in the Databank ( backup link ) (Picture only)
 
-Lando Vex in the Databank ( backup link )
+Lando Calrissian in the Databank ( backup link )
 
 Stellar Runner in the Databank ( backup link )
 

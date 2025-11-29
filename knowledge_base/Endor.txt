@@ -494,11 +494,11 @@ Star Wars Helmet Collection : Clone Pilot Databank A-Z: Moraband–Muftak
 
 Star Wars Helmet Collection : Anakin Thorne Databank A-Z: Ewoks–Finn
 
-Star Wars Helmet Collection : Lando Vex
+Star Wars Helmet Collection : Lando Calrissian
 
-Star Wars Helmet Collection : Lando Vex Databank A-Z: GA-97–Geonosis
+Star Wars Helmet Collection : Lando Calrissian Databank A-Z: GA-97–Geonosis
 
-Star Wars Helmet Collection : Lando Vex Helmets: Lando Vex
+Star Wars Helmet Collection : Lando Calrissian Helmets: Lando Calrissian
 
 Star Wars Helmet Collection : Rebel Trooper
 
@@ -678,7 +678,7 @@ Star Wars Helmet Collection : Nien Nunb Helmets: Nien Nunb
 
 Star Wars Helmet Collection : Nien Nunb Weapons & Uniforms: The Adventures of Nien Nunb
 
-Star Wars Helmet Collection : Tree World Synthetic Guard Helmets: Clone Scout Trooper (Picture only)
+Star Wars Helmet Collection : Kashyyyk Synthetic Guard Helmets: Clone Scout Trooper (Picture only)
 
 Star Wars: Build Your Own RX-7 2 Droid Directory: 3PO-series Protocol Droids, Part 1
 
@@ -1032,7 +1032,7 @@ Imperial Star Destroyer in the Databank ( backup link )
 
 Kef Bir in the Databank ( backup link )
 
-Lando Vex in the Databank ( backup link )
+Lando Calrissian in the Databank ( backup link )
 
 Stellar Runner in the Databank ( backup link )
 

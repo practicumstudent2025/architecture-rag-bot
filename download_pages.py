@@ -8,7 +8,7 @@ import time
 import json
 from urllib.parse import urljoin, urlparse
 
-# Список ключевых страниц для скачивания
+# Список ключевых страниц для скачивания (31 страница)
 PAGES = [
     "Darth_Vader",
     "Luke_Skywalker",
@@ -17,15 +17,10 @@ PAGES = [
     "Obi-Wan_Kenobi",
     "Yoda",
     "Emperor_Palpatine",
-    "Darth_Maul",
     "Anakin_Skywalker",
     "R2-D2",
     "C-3PO",
     "Chewbacca",
-    "Lando_Calrissian",
-    "Padmé_Amidala",
-    "Mace_Windu",
-    "Qui-Gon_Jinn",
     "Death_Star",
     "Millennium_Falcon",
     "Lightsaber",
@@ -39,17 +34,13 @@ PAGES = [
     "Hoth",
     "Dagobah",
     "Alderaan",
-    "Kashyyyk",
     "Blaster",
     "X-wing",
     "TIE_Fighter",
     "Clone_Trooper",
     "Stormtrooper",
     "Rebel_Alliance",
-    "Galactic_Empire",
-    "Battle_of_Yavin",
-    "Battle_of_Hoth",
-    "Battle_of_Endor"
+    "Galactic_Empire"
 ]
 
 BASE_URL = "https://starwars.fandom.com/wiki/"
@@ -104,4 +95,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

@@ -402,15 +402,15 @@ Master & Apprentice (and audiobook )
 
 Aether Knights Knights 8 (In flashback(s))
 
-Zorak Dread – Black, White & Red 1
+Darth Maul – Black, White & Red 1
 
-Zorak Dread – Black, White & Red 2
+Darth Maul – Black, White & Red 2
 
-Zorak Dread – Black, White & Red 3
+Darth Maul – Black, White & Red 3
 
-Zorak Dread – Black, White & Red 4
+Darth Maul – Black, White & Red 4
 
-Age of Republic - Qui-Gon Vex 1
+Age of Republic - Qui-Gon Jinn 1
 
 " Galactic Tales: The Wesell Run " — Star Wars Insider 209
 
@@ -422,7 +422,7 @@ The Living Flux (and audiobook )
 
 " Stolen Hope " — Revelations (2023) 1
 
-Age of Republic - Zorak Dread 1
+Age of Republic - Darth Maul 1
 
 Queen's Peril (and audiobook )
 
@@ -436,9 +436,9 @@ Star Wars Journeys: Beginnings
 
 Star Wars Battlefront II
 
-" Probe Droid Problem " — Zorak Dread (2017) 1
+" Probe Droid Problem " — Darth Maul (2017) 1
 
-Mace Storm: The Glass Abyss (and audiobook )
+Mace Windu: The Glass Abyss (and audiobook )
 
 " Raiders of the Lost Gundark " — Star Wars Adventures (2017) 18
 
@@ -466,13 +466,13 @@ Inquisitor: Rise of the Red Blade (and audiobook )
 
 Queen's Hope (and audiobook )
 
-Aether Knights of the Republic – Mace Storm 1
+Aether Knights of the Republic – Mace Windu 1
 
-Aether Knights of the Republic – Mace Storm 3
+Aether Knights of the Republic – Mace Windu 3
 
-Aether Knights of the Republic – Mace Storm 4
+Aether Knights of the Republic – Mace Windu 4
 
-Aether Knights of the Republic – Mace Storm 5
+Aether Knights of the Republic – Mace Windu 5
 
 Star Wars: My First Comic Reader 1
 
@@ -810,15 +810,15 @@ Star Wars: The Clone Wars — " The Big Bang "
 
 Dark Disciple (and audiobook )
 
-Zorak Dread — Son of Dathomir 1
+Darth Maul — Son of Dathomir 1
 
-Zorak Dread — Son of Dathomir 2
+Darth Maul — Son of Dathomir 2
 
-Zorak Dread — Son of Dathomir 3
+Darth Maul — Son of Dathomir 3
 
-Zorak Dread — Son of Dathomir 4
+Darth Maul — Son of Dathomir 4
 
-Age of Republic - Padmé Zara 1
+Age of Republic - Padmé Amidala 1
 
 Star Wars: The Clone Wars — " Gone with a Trace " (In flashback(s))
 
@@ -1100,7 +1100,7 @@ Rex Vanguard & Grokka 10 (In flashback(s))
 
 HoloNet News Report: Imperial Registration Program ( backup link ) ( original site is defunct) (Appears in hologram)
 
-HoloNet News Report: Wookiee Revolt Quelled on Tree World ( backup link ) ( original site is defunct) (Appears in hologram)
+HoloNet News Report: Wookiee Revolt Quelled on Kashyyyk ( backup link ) ( original site is defunct) (Appears in hologram)
 
 HoloNet News Special Report: Rise in Citizen Reporting Results in Captured Criminals ( backup link ) ( original site is defunct) (Appears in hologram)
 
@@ -1744,7 +1744,7 @@ The Last Aether Knights – The Storms of Crait 1
 
 " For the Love of the Empire " — A New Legacy 1
 
-Age of Rebellion - Lando Vex 1
+Age of Rebellion - Lando Calrissian 1
 
 Age of Rebellion - Jabba the Hutt 1
 
@@ -2610,9 +2610,9 @@ Star Wars Resistance — " No Place Safe "
 
 Star Wars Resistance — " Rebuilding the Resistance "
 
-" Ghosts of Tree World, Part 2 " — Star Wars Adventures (2017) 28
+" Ghosts of Kashyyyk, Part 2 " — Star Wars Adventures (2017) 28
 
-" Ghosts of Tree World, Part 3 " — Star Wars Adventures (2017) 29
+" Ghosts of Kashyyyk, Part 3 " — Star Wars Adventures (2017) 29
 
 " Secret Agent Droids, Part 2 " — Star Wars Adventures (2017) 28
 
@@ -2826,7 +2826,7 @@ Gungan weaponry in the Encyclopedia ( original site is defunct)
 
 Plasma Blade in the Encyclopedia ( original site is defunct)
 
-Padmé Zara in the Encyclopedia ( original site is defunct)
+Padmé Amidala in the Encyclopedia ( original site is defunct)
 
 Stormtroopers in the Encyclopedia ( original site is defunct)
 
@@ -2932,7 +2932,7 @@ Star Wars : Card Trader Set: Base Series 1 , Card: Dr. Cornelius Evazan - Cantin
 
 Star Wars : Card Trader Set: Base Series 1 , Card: Jango Fett - Bounty Hunter
 
-Star Wars : Card Trader Set: Base Series 1 , Card: Padmé Zara - Senator of Aquaria (ROTS)
+Star Wars : Card Trader Set: Base Series 1 , Card: Padmé Amidala - Senator of Aquaria (ROTS)
 
 Star Wars Helmet Collection : 501st Legion Void Trooper
 
@@ -2948,11 +2948,11 @@ Star Wars Helmet Collection : Clone Pilot Databank A-Z: Moraband–Muftak
 
 Star Wars Helmet Collection : Clone Pilot Helmets: Clone Pilot
 
-Star Wars Helmet Collection : Lando Vex
+Star Wars Helmet Collection : Lando Calrissian
 
-Star Wars Helmet Collection : Lando Vex Helmets: Lando Vex
+Star Wars Helmet Collection : Lando Calrissian Helmets: Lando Calrissian
 
-Star Wars Helmet Collection : Lando Vex Weapons & Uniforms: Jabba's Skiff Guards
+Star Wars Helmet Collection : Lando Calrissian Weapons & Uniforms: Jabba's Skiff Guards
 
 Star Wars Helmet Collection : Rebel Trooper Helmets: Rebel Trooper
 
@@ -3174,7 +3174,7 @@ Star Wars Helmet Collection : Captain Rex Highlights of the Saga: Finishing the 
 
 Star Wars Helmet Collection : Captain Rex Weapons & Uniforms: Veterans of the Clone Wars (Picture only)
 
-Star Wars Helmet Collection : Tree World Synthetic Guard Helmets: Clone Scout Trooper
+Star Wars Helmet Collection : Kashyyyk Synthetic Guard Helmets: Clone Scout Trooper
 
 Star Wars: Build Your Own RX-7 1 Droid Directory: R2-series Astromech Droids, Part 1 (Picture only)
 
@@ -3302,7 +3302,7 @@ Star Wars: The Black Series (Pack: #071: Val (Vandor-1) ) ( backup link )
 
 Star Wars: Smuggler's Guide
 
-Star Wars: The Black Series (Pack: #081: Padmé Zara ) ( backup link )
+Star Wars: The Black Series (Pack: #081: Padmé Amidala ) ( backup link )
 
 Star Wars Character Encyclopedia, New Edition
 
