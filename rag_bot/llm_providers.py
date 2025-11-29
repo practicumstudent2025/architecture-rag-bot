@@ -67,7 +67,11 @@ class YandexGPTProvider(LLMProvider):
             "Content-Type": "application/json"
         }
         
-        full_prompt = f"{system_prompt}\n\n{prompt}" if system_prompt else prompt
+        # Формируем сообщения
+        messages = []
+        if system_prompt:
+            messages.append({"role": "system", "text": system_prompt})
+        messages.append({"role": "user", "text": prompt})
         
         data = {
             "modelUri": f"gpt://{self.folder_id}/yandexgpt/latest",
@@ -76,14 +80,19 @@ class YandexGPTProvider(LLMProvider):
                 "temperature": 0.7,
                 "maxTokens": 2000
             },
-            "messages": [
-                {"role": "user", "text": full_prompt}
-            ]
+            "messages": messages
         }
         
-        response = self.requests.post(self.url, headers=headers, json=data)
-        response.raise_for_status()
-        return response.json()["result"]["alternatives"][0]["message"]["text"]
+        try:
+            response = self.requests.post(self.url, headers=headers, json=data, timeout=30)
+            response.raise_for_status()
+            result = response.json()
+            return result["result"]["alternatives"][0]["message"]["text"]
+        except self.requests.exceptions.HTTPError as e:
+            if e.response.status_code == 403:
+                error_detail = e.response.json().get("message", "Нет доступа. Проверьте API ключ и права доступа.")
+                raise ValueError(f"Ошибка доступа к YandexGPT: {error_detail}")
+            raise
 
 
 class LocalLLMProvider(LLMProvider):
