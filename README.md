@@ -27,29 +27,25 @@ architecture-rag-bot/
     └── requirements.txt  # Зависимости
 ```
 
-## Быстрый старт
-
-### 1. Установка
+## Установка
 
 ```bash
-cd папка_с_приложением
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r config/requirements.txt
 ```
 
-### 2. Настройка YandexGPT
+## Настройка YandexGPT
 
-См. подробную инструкцию в `ИНСТРУКЦИЯ.md`
-
-Кратко:
 1. Создайте каталог в Yandex Cloud
 2. Создайте сервисный аккаунт
 3. Назначьте роль `ai.languageModels.user` через Access bindings каталога
 4. Создайте API ключ со scope `yc.ai.languageModels.execute`
 5. Создайте `.env` файл (см. `.env.example`)
 
-### 3. Создание векторного индекса
+Подробная инструкция в `ИНСТРУКЦИЯ.md`
+
+## Создание векторного индекса
 
 ```bash
 python3 scripts/task3/step1_load_documents.py
@@ -58,42 +54,32 @@ python3 scripts/task3/step3_create_embeddings.py
 python3 scripts/task3/step4_create_index.py
 ```
 
-### 4. Запуск бота
+## Запуск бота
 
-**Консольный режим:**
+Консольный режим:
 ```bash
 python3 scripts/task4/run_rag_bot.py
 ```
 
-**Telegram-бот:**
+Telegram-бот:
 ```bash
 python3 scripts/task4/run_telegram_bot.py
 ```
 
-## Документация
-
-- **Основные документы:**
-  - `ИНСТРУКЦИЯ.md` - инструкция по настройке и запуску
-  - `Project_template.md` - описание всех решений проекта
-  
-- **Документы по заданиям:**
-  - `research_task1.md` - исследование моделей и инфраструктуры (задание 1)
-  - `TASK3_README.md` - описание векторного индекса (задание 3)
-  - `TASK4_README.md` - описание RAG-бота (задание 4)
-  - `TASK5_README.md` - описание защиты и тестирования (задание 5)
-  - `TASK5_RESULTS.md` - детальные результаты тестирования безопасности
-
 ## Технологии
 
-- **LLM**: YandexGPT Pro
-- **Эмбеддинги**: multilingual-e5-base (Sentence-Transformers)
-- **Векторная БД**: ChromaDB
-- **Фреймворки**: LangChain, python-telegram-bot
+- LLM: YandexGPT Pro
+- Эмбеддинги: multilingual-e5-base (Sentence-Transformers)
+- Векторная БД: ChromaDB
+- Фреймворки: LangChain, python-telegram-bot
 
-## Результаты
+## Документация
 
-- **База знаний**: 31 документ
-- **Векторный индекс**: 9,119 чанков
-- **Защита от промпт-инъекций**: 5/5 (100%)
-- **Успешные ответы**: 5/5
+- `ИНСТРУКЦИЯ.md` - инструкция по настройке и запуску
+- `Project_template.md` - описание всех решений проекта
+- `research_task1.md` - исследование моделей и инфраструктуры
+- `TASK3_README.md` - описание векторного индекса
+- `TASK4_README.md` - описание RAG-бота
+- `TASK5_README.md` - описание защиты и тестирования
+- `TASK5_RESULTS.md` - результаты тестирования безопасности
 
