@@ -56,6 +56,7 @@ class YandexGPTProvider(LLMProvider):
         if not YANDEX_API_KEY or not YANDEX_FOLDER_ID:
             raise ValueError("YANDEX_API_KEY или YANDEX_FOLDER_ID не установлены")
         import requests
+        self.requests = requests
         self.api_key = YANDEX_API_KEY
         self.folder_id = YANDEX_FOLDER_ID
         self.url = "https://llm.api.cloud.yandex.net/foundationModels/v1/completion"
@@ -80,7 +81,7 @@ class YandexGPTProvider(LLMProvider):
             ]
         }
         
-        response = requests.post(self.url, headers=headers, json=data)
+        response = self.requests.post(self.url, headers=headers, json=data)
         response.raise_for_status()
         return response.json()["result"]["alternatives"][0]["message"]["text"]
 
