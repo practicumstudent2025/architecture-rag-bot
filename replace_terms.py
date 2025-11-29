@@ -49,6 +49,36 @@ def replace_terms_in_text(text, replacements):
     return result
 
 
+def get_new_filename(old_filename, replacements):
+    """Определяет новое имя файла на основе словаря замен"""
+    base_name = old_filename.replace('.txt', '')
+    
+    # Заменяем подчеркивания и дефисы на пробелы для поиска
+    search_name = base_name.replace('_', ' ').replace('-', ' ')
+    
+    # Ищем соответствие в словаре замен
+    for original, replacement in replacements.items():
+        original_underscore = original.replace(' ', '_')
+        original_dash = original.replace(' ', '-')
+        
+        # Проверяем точное совпадение
+        if search_name == original or search_name.startswith(original):
+            new_base = base_name.replace(original_underscore, replacement.replace(' ', '_'))
+            new_base = new_base.replace(original_dash, replacement.replace(' ', '_'))
+            return f"{new_base}.txt"
+        
+        # Проверяем частичное совпадение
+        if original_underscore in base_name:
+            new_base = base_name.replace(original_underscore, replacement.replace(' ', '_'))
+            return f"{new_base}.txt"
+        elif original_dash in base_name:
+            new_base = base_name.replace(original_dash, replacement.replace(' ', '_'))
+            return f"{new_base}.txt"
+    
+    # Если не нашли замену, возвращаем старое имя
+    return old_filename
+
+
 def process_file(filename, replacements):
     """Обрабатывает один файл"""
     input_path = os.path.join(INPUT_DIR, filename)
@@ -63,12 +93,20 @@ def process_file(filename, replacements):
         # Заменяем термины
         replaced_text = replace_terms_in_text(text, replacements)
         
-        # Сохраняем в knowledge_base
-        output_path = os.path.join(OUTPUT_DIR, filename)
+        # Определяем новое имя файла
+        new_filename = get_new_filename(filename, replacements)
+        
+        # Сохраняем в knowledge_base с новым именем
+        output_path = os.path.join(OUTPUT_DIR, new_filename)
         with open(output_path, 'w', encoding='utf-8') as f:
             f.write(replaced_text)
         
-        return filename
+        if new_filename != filename:
+            print(f"Обработано и переименовано: {filename} → {new_filename}")
+        else:
+            print(f"Обработано: {filename}")
+        
+        return new_filename
     except Exception as e:
         print(f"Ошибка при обработке {filename}: {e}")
         return None
