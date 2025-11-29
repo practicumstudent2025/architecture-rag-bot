@@ -30,12 +30,17 @@ def load_documents():
     Returns:
         list: Список объектов Document с текстом и метаданными
     """
+    print("\n" + "="*80)
+    print("ШАГ 1: ЗАГРУЗКА ДОКУМЕНТОВ")
+    print("="*80)
+    
     documents = []
     txt_files = list(Path(KNOWLEDGE_BASE_DIR).glob("*.txt"))
     
     print(f"Найдено документов: {len(txt_files)}")
+    print(f"Директория: {KNOWLEDGE_BASE_DIR}\n")
     
-    for file_path in txt_files:
+    for i, file_path in enumerate(txt_files, 1):
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
                 content = f.read()
@@ -50,9 +55,13 @@ def load_documents():
                 }
             )
             documents.append(doc)
-            print(f"Загружен: {file_path.name}")
+            print(f"[{i}/{len(txt_files)}] Загружен: {file_path.name} ({len(content):,} символов)")
         except Exception as e:
-            print(f"Ошибка при загрузке {file_path}: {e}")
+            print(f"❌ Ошибка при загрузке {file_path}: {e}")
+    
+    total_chars = sum(len(doc.page_content) for doc in documents)
+    print(f"\n✅ Загружено документов: {len(documents)}")
+    print(f"📊 Общий объем текста: {total_chars:,} символов")
     
     return documents
 
@@ -67,6 +76,10 @@ def split_documents(documents):
     Returns:
         list: Список чанков с метаданными
     """
+    print("\n" + "="*80)
+    print("ШАГ 2: РАЗБИЕНИЕ НА ЧАНКИ")
+    print("="*80)
+    
     # Создаем сплиттер с настройками
     text_splitter = RecursiveCharacterTextSplitter(
         chunk_size=CHUNK_SIZE,
@@ -75,19 +88,29 @@ def split_documents(documents):
         separators=["\n\n", "\n", ". ", " ", ""]
     )
     
-    print(f"\nРазбиение документов на чанки...")
-    print(f"Размер чанка: {CHUNK_SIZE} символов")
-    print(f"Перекрытие: {CHUNK_OVERLAP} символов")
+    print(f"Параметры разбиения:")
+    print(f"  - Размер чанка: {CHUNK_SIZE} символов (~200-300 слов)")
+    print(f"  - Перекрытие: {CHUNK_OVERLAP} символов")
+    print(f"  - Разделители: параграфы, строки, предложения, слова\n")
+    print("Разбиение документов...")
+    
+    start_time = time.time()
     
     # Разбиваем все документы
     chunks = text_splitter.split_documents(documents)
+    
+    split_time = time.time() - start_time
     
     # Добавляем ID к каждому чанку
     for i, chunk in enumerate(chunks):
         chunk.metadata["chunk_id"] = i
         chunk.metadata["chunk_size"] = len(chunk.page_content)
     
-    print(f"Создано чанков: {len(chunks)}")
+    avg_chunk_size = sum(len(c.page_content) for c in chunks) / len(chunks) if chunks else 0
+    
+    print(f"\n✅ Создано чанков: {len(chunks):,}")
+    print(f"⏱️  Время разбиения: {split_time:.2f} секунд")
+    print(f"📊 Средний размер чанка: {avg_chunk_size:.0f} символов")
     
     return chunks
 
@@ -99,15 +122,29 @@ def create_embeddings():
     Returns:
         HuggingFaceEmbeddings: Модель для генерации эмбеддингов
     """
-    print(f"\nЗагрузка модели эмбеддингов: {EMBEDDING_MODEL_NAME}")
-    print("Это может занять некоторое время при первом запуске...")
+    print("\n" + "="*80)
+    print("ШАГ 3: ИНИЦИАЛИЗАЦИЯ МОДЕЛИ ЭМБЕДДИНГОВ")
+    print("="*80)
+    
+    print(f"Модель: {EMBEDDING_MODEL_NAME}")
+    print(f"Репозиторий: https://huggingface.co/{EMBEDDING_MODEL_NAME}")
+    print(f"Размер эмбеддингов: 768 измерений")
+    print(f"\n⚠️  ВНИМАНИЕ: Загрузка модели может занять 1-2 минуты при первом запуске")
+    print(f"   Модель будет скачана с Hugging Face Hub (~560 MB)")
+    print(f"   Пожалуйста, не прерывайте процесс!\n")
+    
+    start_time = time.time()
     
     embeddings = HuggingFaceEmbeddings(
         model_name=EMBEDDING_MODEL_NAME,
         model_kwargs={'device': 'cpu'}  # Используем CPU
     )
     
-    print("Модель загружена успешно")
+    load_time = time.time() - start_time
+    
+    print(f"✅ Модель загружена успешно")
+    print(f"⏱️  Время загрузки: {load_time:.2f} секунд")
+    
     return embeddings
 
 
@@ -122,17 +159,37 @@ def create_index(chunks, embeddings):
     Returns:
         Chroma: Векторное хранилище
     """
-    print(f"\nСоздание векторного индекса в ChromaDB...")
+    print("\n" + "="*80)
+    print("ШАГ 4: СОЗДАНИЕ ВЕКТОРНОГО ИНДЕКСА")
+    print("="*80)
+    
+    print(f"Векторная БД: ChromaDB")
     print(f"Директория индекса: {INDEX_DIR}")
+    print(f"Количество чанков для индексации: {len(chunks):,}")
+    print(f"\n⚠️  ВНИМАНИЕ: Генерация эмбеддингов может занять значительное время")
+    print(f"   Оценка времени: ~{len(chunks) * 0.05:.0f}-{len(chunks) * 0.1:.0f} секунд")
+    print(f"   (~0.05-0.1 сек на чанк, зависит от размера)")
+    print(f"   Пожалуйста, не прерывайте процесс!\n")
+    
+    start_time = time.time()
+    
+    print("Генерация эмбеддингов и создание индекса...")
+    print("Это может занять несколько минут...\n")
     
     # Создаем векторное хранилище
+    # ChromaDB автоматически генерирует эмбеддинги для всех чанков
     vectorstore = Chroma.from_documents(
         documents=chunks,
         embedding=embeddings,
         persist_directory=INDEX_DIR
     )
     
-    print("Индекс создан и сохранен")
+    index_time = time.time() - start_time
+    
+    print(f"\n✅ Индекс создан и сохранен")
+    print(f"⏱️  Время создания индекса: {index_time:.2f} секунд ({index_time/60:.2f} минут)")
+    print(f"📁 Индекс сохранен в: {INDEX_DIR}")
+    
     return vectorstore
 
 
@@ -145,27 +202,32 @@ def test_search(vectorstore, test_queries):
         test_queries (list): Список тестовых запросов
     """
     print("\n" + "="*80)
-    print("ТЕСТИРОВАНИЕ ПОИСКА")
+    print("ШАГ 5: ТЕСТИРОВАНИЕ ПОИСКА")
     print("="*80)
     
     results = []
     
-    for query in test_queries:
-        print(f"\nЗапрос: {query}")
+    for i, query in enumerate(test_queries, 1):
+        print(f"\n[{i}/{len(test_queries)}] Запрос: {query}")
         print("-" * 80)
+        
+        start_time = time.time()
         
         # Выполняем поиск
         docs = vectorstore.similarity_search(query, k=3)
         
+        search_time = time.time() - start_time
+        
         query_results = {
             "query": query,
             "found_chunks": len(docs),
+            "search_time_seconds": round(search_time, 3),
             "results": []
         }
         
-        for i, doc in enumerate(docs, 1):
+        for j, doc in enumerate(docs, 1):
             result = {
-                "rank": i,
+                "rank": j,
                 "source": doc.metadata.get("source", "unknown"),
                 "title": doc.metadata.get("title", "unknown"),
                 "chunk_id": doc.metadata.get("chunk_id", "unknown"),
@@ -173,10 +235,12 @@ def test_search(vectorstore, test_queries):
             }
             query_results["results"].append(result)
             
-            print(f"\n{i}. Источник: {result['source']}")
-            print(f"   Чанк ID: {result['chunk_id']}")
-            print(f"   Превью: {result['preview']}")
+            print(f"\n  Результат {j}:")
+            print(f"    📄 Источник: {result['source']}")
+            print(f"    🆔 Чанк ID: {result['chunk_id']}")
+            print(f"    📝 Превью: {result['preview']}")
         
+        print(f"\n  ⏱️  Время поиска: {search_time:.3f} секунд")
         results.append(query_results)
     
     # Сохраняем результаты тестирования
@@ -184,7 +248,7 @@ def test_search(vectorstore, test_queries):
     with open(test_results_path, 'w', encoding='utf-8') as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
     
-    print(f"\nРезультаты тестирования сохранены в: {test_results_path}")
+    print(f"\n✅ Результаты тестирования сохранены в: {test_results_path}")
     
     return results
 
@@ -225,47 +289,60 @@ def save_index_info(chunks_count, processing_time, vectorstore):
     with open(info_path, 'w', encoding='utf-8') as f:
         json.dump(info, f, ensure_ascii=False, indent=2)
     
-    print(f"\nИнформация об индексе сохранена в: {info_path}")
+    print(f"\n✅ Информация об индексе сохранена в: {info_path}")
     
     return info
 
 
 def main():
     """Основная функция для создания векторного индекса"""
-    start_time = time.time()
+    total_start_time = time.time()
     
     print("="*80)
     print("СОЗДАНИЕ ВЕКТОРНОГО ИНДЕКСА БАЗЫ ЗНАНИЙ")
+    print("="*80)
+    print("\nЭтот процесс включает:")
+    print("  1. Загрузку документов из базы знаний")
+    print("  2. Разбиение на чанки")
+    print("  3. Загрузку модели эмбеддингов")
+    print("  4. Генерацию эмбеддингов и создание индекса")
+    print("  5. Тестирование поиска")
+    print("\n⚠️  ВАЖНО: Процесс может занять 5-15 минут в зависимости от:")
+    print("  - Скорости интернета (при первой загрузке модели)")
+    print("  - Производительности CPU")
+    print("  - Количества документов и чанков")
+    print("\n💡 Пожалуйста, не прерывайте процесс до завершения!")
     print("="*80)
     
     # Создаем директорию для индекса
     os.makedirs(INDEX_DIR, exist_ok=True)
     
     # 1. Загружаем документы
-    print("\n[1/4] Загрузка документов...")
     documents = load_documents()
     
+    if not documents:
+        print("\n❌ ОШИБКА: Не найдено документов для индексации!")
+        return
+    
     # 2. Разбиваем на чанки
-    print("\n[2/4] Разбиение на чанки...")
     chunks = split_documents(documents)
     
     # 3. Создаем модель эмбеддингов
-    print("\n[3/4] Инициализация модели эмбеддингов...")
     embeddings = create_embeddings()
     
     # 4. Создаем индекс
-    print("\n[4/4] Создание векторного индекса...")
     vectorstore = create_index(chunks, embeddings)
     
-    # Вычисляем время обработки
-    processing_time = time.time() - start_time
+    # Вычисляем общее время обработки
+    total_processing_time = time.time() - total_start_time
     
     # Сохраняем информацию об индексе
-    print("\n[Дополнительно] Сохранение информации об индексе...")
-    index_info = save_index_info(len(chunks), processing_time, vectorstore)
+    print("\n" + "="*80)
+    print("СОХРАНЕНИЕ ИНФОРМАЦИИ ОБ ИНДЕКСЕ")
+    print("="*80)
+    index_info = save_index_info(len(chunks), total_processing_time, vectorstore)
     
     # Тестируем поиск
-    print("\n[Дополнительно] Тестирование поиска...")
     test_queries = [
         "Кто такой Xarn Velgor?",
         "Что такое Synth Flux?",
@@ -277,16 +354,16 @@ def main():
     print("\n" + "="*80)
     print("ИТОГОВАЯ СТАТИСТИКА")
     print("="*80)
-    print(f"Модель эмбеддингов: {EMBEDDING_MODEL_NAME}")
-    print(f"Векторная БД: ChromaDB")
-    print(f"Документов в базе: {index_info['knowledge_base']['documents_count']}")
-    print(f"Чанков в индексе: {index_info['indexing']['chunks_count']}")
-    print(f"Размер чанка: {CHUNK_SIZE} символов")
-    print(f"Время создания индекса: {index_info['indexing']['processing_time_seconds']} сек ({index_info['indexing']['processing_time_minutes']} мин)")
-    print(f"Индекс сохранен в: {INDEX_DIR}")
+    print(f"✅ Модель эмбеддингов: {EMBEDDING_MODEL_NAME}")
+    print(f"✅ Векторная БД: ChromaDB")
+    print(f"✅ Документов в базе: {index_info['knowledge_base']['documents_count']}")
+    print(f"✅ Чанков в индексе: {index_info['indexing']['chunks_count']:,}")
+    print(f"✅ Размер чанка: {CHUNK_SIZE} символов")
+    print(f"✅ Общее время создания индекса: {index_info['indexing']['processing_time_seconds']:.2f} сек ({index_info['indexing']['processing_time_minutes']:.2f} мин)")
+    print(f"✅ Индекс сохранен в: {INDEX_DIR}")
     print("="*80)
+    print("\n🎉 Векторный индекс успешно создан!")
 
 
 if __name__ == "__main__":
     main()
-
