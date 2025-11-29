@@ -4,8 +4,6 @@
 
 1. [Сравнение LLM-моделей](#1-сравнение-llm-моделей)
 2. [Сравнение моделей эмбеддингов](#2-сравнение-моделей-эмбеддингов)
-   - [Локальные модели (Sentence-Transformers)](#21-локальные-модели-sentence-transformers)
-   - [Облачные модели (OpenAI Embeddings)](#22-облачные-модели-openai-embeddings)
 3. [Сравнение векторных баз данных](#3-сравнение-векторных-баз-данных)
    - [FAISS (Facebook AI Similarity Search)](#31-faiss-facebook-ai-similarity-search)
    - [ChromaDB](#32-chromadb)
