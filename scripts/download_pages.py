@@ -44,7 +44,7 @@ PAGES = [
 ]
 
 BASE_URL = "https://starwars.fandom.com/wiki/"
-OUTPUT_DIR = "raw_pages"
+OUTPUT_DIR = os.path.join("data", "raw", "pages")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
