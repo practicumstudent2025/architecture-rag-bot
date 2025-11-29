@@ -3,9 +3,15 @@
 """
 import os
 from pathlib import Path
+from dotenv import load_dotenv
+
+# Загружаем переменные окружения из .env файла
+BASE_DIR = Path(__file__).parent.parent
+env_path = BASE_DIR / ".env"
+if env_path.exists():
+    load_dotenv(env_path)
 
 # Пути к данным
-BASE_DIR = Path(__file__).parent.parent
 VECTOR_INDEX_DIR = BASE_DIR / "data" / "vector_index"
 KNOWLEDGE_BASE_DIR = BASE_DIR / "data" / "knowledge_base"
 
