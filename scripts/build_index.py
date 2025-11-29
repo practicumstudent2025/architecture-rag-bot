@@ -10,8 +10,8 @@ import os
 import time
 from pathlib import Path
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.vectorstores import Chroma
-from langchain.embeddings import HuggingFaceEmbeddings
+from langchain_community.vectorstores import Chroma
+from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain.schema import Document
 import json
 
@@ -19,8 +19,8 @@ import json
 KNOWLEDGE_BASE_DIR = os.path.join("data", "knowledge_base")
 INDEX_DIR = os.path.join("data", "vector_index")
 EMBEDDING_MODEL_NAME = "intfloat/multilingual-e5-base"
-CHUNK_SIZE = 500  # Размер чанка в символах
-CHUNK_OVERLAP = 50  # Перекрытие между чанками
+CHUNK_SIZE = 1000  # Размер чанка в символах (примерно 200-300 слов)
+CHUNK_OVERLAP = 100  # Перекрытие между чанками
 
 
 def load_documents():
