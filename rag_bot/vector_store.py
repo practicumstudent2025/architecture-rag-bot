@@ -1,10 +1,14 @@
 """
 Модуль для работы с векторным хранилищем
 """
+import warnings
 from pathlib import Path
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from rag_bot.config import VECTOR_INDEX_DIR, EMBEDDING_MODEL_NAME
+
+# Подавляем deprecation warnings (классы все еще работают)
+warnings.filterwarnings("ignore", category=DeprecationWarning, module="langchain")
 
 
 def load_vector_store():

@@ -6,6 +6,7 @@ from langchain.schema import Document
 from rag_bot.vector_store import load_vector_store, search_relevant_chunks, search_relevant_chunks_with_scores
 from rag_bot.llm_providers import get_llm_provider, LLMProvider
 from rag_bot.prompts import create_system_prompt, create_rag_prompt
+from rag_bot.security import create_secure_system_prompt, filter_malicious_chunks
 from rag_bot.config import SEARCH_K, SIMILARITY_THRESHOLD
 
 
@@ -18,7 +19,8 @@ class RAGBot:
         self.vectorstore = load_vector_store()
         print("Инициализация LLM провайдера...")
         self.llm = get_llm_provider()
-        self.system_prompt = create_system_prompt()
+        base_prompt = create_system_prompt()
+        self.system_prompt = create_secure_system_prompt(base_prompt)  # Защищенный промпт
         print("RAG-бот готов к работе!")
     
     def _check_relevance(self, query: str, docs: list) -> Tuple[bool, float]:
@@ -70,6 +72,9 @@ class RAGBot:
         # 1. Поиск релевантных чанков
         relevant_docs = search_relevant_chunks(self.vectorstore, query, k=SEARCH_K)
         
+        # 1.5. Фильтрация вредоносных чанков (Post-проверка)
+        relevant_docs = filter_malicious_chunks(relevant_docs)
+        
         # 2. Проверка релевантности (для случаев "Я не знаю")
         if not relevant_docs:
             return "Я не знаю ответ на этот вопрос. В базе знаний не найдено релевантной информации."
@@ -79,8 +84,8 @@ class RAGBot:
         if not is_relevant:
             return f"Я не знаю ответ на этот вопрос. Найденная информация недостаточно релевантна (релевантность: {score:.2f}). Попробуйте переформулировать вопрос или уточнить детали."
         
-        # 3. Создание промпта с Few-shot и контекстом
-        rag_prompt = create_rag_prompt(query, relevant_docs)
+        # 3. Создание промпта с Few-shot и контекстом (примеры извлекаются из базы)
+        rag_prompt = create_rag_prompt(query, relevant_docs, self.vectorstore)
         
         # 4. Генерация ответа через LLM
         try:
@@ -106,6 +111,9 @@ class RAGBot:
         """
         relevant_docs = search_relevant_chunks(self.vectorstore, query, k=SEARCH_K)
         
+        # Фильтрация вредоносных чанков (Post-проверка)
+        relevant_docs = filter_malicious_chunks(relevant_docs)
+        
         if not relevant_docs:
             return {
                 "answer": "Я не знаю ответ на этот вопрос. В базе знаний не найдено релевантной информации.",
@@ -120,7 +128,7 @@ class RAGBot:
                 "sources": []
             }
         
-        rag_prompt = create_rag_prompt(query, relevant_docs)
+        rag_prompt = create_rag_prompt(query, relevant_docs, self.vectorstore)
         
         try:
             answer = self.llm.generate(rag_prompt, self.system_prompt)

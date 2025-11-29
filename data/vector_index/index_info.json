@@ -1,6 +1,6 @@
 {
-  "chunks_count": 9119,
-  "indexing_time_seconds": 640.27,
-  "indexing_time_minutes": 10.67,
+  "chunks_count": 9120,
+  "indexing_time_seconds": 669.27,
+  "indexing_time_minutes": 11.15,
   "index_path": "data/vector_index"
 }

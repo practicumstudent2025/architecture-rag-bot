@@ -26,8 +26,8 @@ YANDEX_API_KEY = os.getenv("YANDEX_API_KEY", "")
 YANDEX_FOLDER_ID = os.getenv("YANDEX_FOLDER_ID", "")
 
 # Параметры поиска
-SEARCH_K = 3  # Количество релевантных чанков для поиска
-SIMILARITY_THRESHOLD = 0.7  # Порог релевантности (для "Я не знаю")
+SEARCH_K = 5  # Количество релевантных чанков для поиска (увеличено для лучшего покрытия)
+SIMILARITY_THRESHOLD = 0.6  # Порог релевантности (для "Я не знаю") - снижен для более гибкой работы
 
 # Telegram настройки
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
