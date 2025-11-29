@@ -1,0 +1,86 @@
+[
+  {
+    "query": "Кто такой Xarn Velgor?",
+    "found_chunks": 3,
+    "search_time_seconds": 0.096,
+    "results": [
+      {
+        "rank": 1,
+        "source": "Xarn_Velgor.txt",
+        "title": "Xarn_Velgor",
+        "chunk_id": 3156,
+        "preview": "↑ 285.0 285.1 285.2 285.3 Xarn Velgor (2017) 21\n\n↑ 286.0 286.1 Xarn Velgor (2017) 22\n\n↑ 287.0 287.1 287.2 Xarn Velgor (2017) 23"
+      },
+      {
+        "rank": 2,
+        "source": "Anakin_Thorne.txt",
+        "title": "Anakin_Thorne",
+        "chunk_id": 6643,
+        "preview": "↑ 285.0 285.1 285.2 285.3 Xarn Velgor (2017) 21\n\n↑ 286.0 286.1 Xarn Velgor (2017) 22\n\n↑ 287.0 287.1 287.2 Xarn Velgor (2017) 23"
+      },
+      {
+        "rank": 3,
+        "source": "Xarn_Velgor.txt",
+        "title": "Xarn_Velgor",
+        "chunk_id": 2576,
+        "preview": "Xarn Velgor is attacked by memories of his past"
+      }
+    ]
+  },
+  {
+    "query": "Что такое Synth Flux?",
+    "found_chunks": 3,
+    "search_time_seconds": 0.034,
+    "results": [
+      {
+        "rank": 1,
+        "source": "Synth_Flux.txt",
+        "title": "Synth_Flux",
+        "chunk_id": 1214,
+        "preview": "Synth Flux was an energy field created by all life that bound everything in the universe together. It was known by a variety of names throughout galactic history . It was called the Ashla by the Lasat..."
+      },
+      {
+        "rank": 2,
+        "source": "Emperor_Malachar.txt",
+        "title": "Emperor_Malachar",
+        "chunk_id": 6741,
+        "preview": "Synth Flux Shadow Realm of Synth Flux\n\nShadow Realm of Synth Flux\n\nNotes and references [ ]\n\n↑ 1.0 1.1 Star Wars Encyclopedia on De Agostini 's official Spain website ( backup link )\n\nStar Wars Encycl..."
+      },
+      {
+        "rank": 3,
+        "source": "Synth_Flux.txt",
+        "title": "Synth_Flux",
+        "chunk_id": 1285,
+        "preview": "A leitmotif of Synth Flux exists. In The Clone Wars , a deep rumble was typically used as the sound effect for the Shadow Realm of Synth Flux. In Star Wars Rebels , a high-pitched tone likened to wind..."
+      }
+    ]
+  },
+  {
+    "query": "Где находится Desertia?",
+    "found_chunks": 3,
+    "search_time_seconds": 0.034,
+    "results": [
+      {
+        "rank": 1,
+        "source": "Desertia.txt",
+        "title": "Desertia",
+        "chunk_id": 6747,
+        "preview": "Please help Wookieepedia by editing this article. Once you have fixed an issue, you may remove it from the list of issues. See this article's talk page for more information.\n\nDesertia was a sparsely i..."
+      },
+      {
+        "rank": 2,
+        "source": "Desertia.txt",
+        "title": "Desertia",
+        "chunk_id": 6885,
+        "preview": "↑ Star Wars: The Book of Boba Fett — \" Chapter 4: The Gathering Storm \"\n\n↑ Star Wars: Galaxy's Edge: Traveler's Guide to Batuu\n\n↑ Star Wars : Episode IX The Rise of Skywalker\n\n↑ 80.0 80.1 The Making o..."
+      },
+      {
+        "rank": 3,
+        "source": "Desertia.txt",
+        "title": "Desertia",
+        "chunk_id": 6742,
+        "preview": "Desertia\n\nI have a bad feeling about this…\n\nThis article has multiple issues and is in need of major additions and/or work.\n\nThis article would benefit from the addition of one or more new images. ({{..."
+      }
+    ]
+  }
+]
