@@ -24,7 +24,7 @@ wheels/
 venv/
 env/
 ENV/
-.venv
+.venv/
 
 # IDE
 .vscode/
@@ -52,6 +52,7 @@ models/*.bin
 vector_db/
 *.faiss
 *.index
+chroma_db/
 
 # Logs
 *.log

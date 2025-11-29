@@ -1,0 +1,52 @@
+{
+  "description": "Словарь замен терминов из вселенной Star Wars на вымышленные названия для создания уникальной базы знаний",
+  "source_universe": "Star Wars",
+  "replacement_strategy": "Все ключевые термины заменены на вымышленные названия, сохраняющие стиль и логику оригинального мира",
+  "characters": {
+    "Darth Vader": "Xarn Velgor",
+    "Luke Skywalker": "Kael Thorne",
+    "Princess Leia": "Princess Zara",
+    "Han Solo": "Rex Vanguard",
+    "Obi-Wan Kenobi": "Master Valen",
+    "Yoda": "Master Zephyr",
+    "Emperor Palpatine": "Emperor Malachar",
+    "Anakin Skywalker": "Anakin Thorne",
+    "R2-D2": "RX-7",
+    "C-3PO": "C-9X",
+    "Chewbacca": "Grokka"
+  },
+  "organizations": {
+    "Jedi": "Aether Knights",
+    "Sith": "Shadow Lords",
+    "Rebel Alliance": "Free Coalition",
+    "Galactic Empire": "Void Dominion",
+    "Clone Trooper": "Synthetic Guard",
+    "Stormtrooper": "Void Trooper"
+  },
+  "locations": {
+    "Tatooine": "Desertia",
+    "Coruscant": "Metropolis Prime",
+    "Naboo": "Aquaria",
+    "Endor": "Forest Moon",
+    "Hoth": "Ice World",
+    "Dagobah": "Swamp Planet",
+    "Alderaan": "Peaceful World"
+  },
+  "technologies": {
+    "Death Star": "Void Core",
+    "Millennium Falcon": "Stellar Runner",
+    "Lightsaber": "Plasma Blade",
+    "Blaster": "Energy Rifle",
+    "X-wing": "Star Fighter",
+    "TIE Fighter": "Void Fighter",
+    "The Force": "Synth Flux"
+  },
+  "concepts": {
+    "The Force": "Synth Flux",
+    "Force": "Flux",
+    "Dark Side": "Shadow Realm",
+    "Light Side": "Bright Realm",
+    "Jedi Order": "Aether Order",
+    "Sith Order": "Shadow Order"
+  }
+}
