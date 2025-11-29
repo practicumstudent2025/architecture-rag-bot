@@ -6,24 +6,24 @@
 
 ```
 architecture-rag-bot/
-├── config/                 # Конфигурационные файлы
-│   └── terms_map.json      # Словарь замен терминов
-├── data/                   # Данные проекта
-│   ├── raw/                # Исходные данные
-│   │   └── pages/          # Скачанные HTML страницы
-│   ├── processed/          # Обработанные данные
-│   │   └── texts/          # Очищенные тексты
-│   └── knowledge_base/     # Финальная база знаний
-├── docs/                   # Документация
-│   ├── research_task1.md   # Исследование моделей и инфраструктуры
-│   └── Project_template.md # Шаблон проекта
-├── scripts/                # Скрипты обработки
-│   ├── download_pages.py   # Скачивание страниц
-│   ├── clean_texts.py      # Очистка HTML
-│   ├── replace_terms.py    # Замена терминов
-│   └── rename_files.py     # Переименование файлов
-├── requirements.txt        # Зависимости Python
-└── README.md              # Этот файл
+├── config/                      # Конфигурационные файлы
+│   └── terms_map.json           # Словарь замен терминов
+├── data/                        # Данные проекта
+│   ├── raw/                     # Исходные данные
+│   │   └── pages/               # Скачанные HTML страницы
+│   ├── processed/               # Обработанные данные
+│   │   └── texts/               # Очищенные тексты
+│   └── knowledge_base/          # Финальная база знаний
+├── docs/                        # Документация
+│   ├── research_task1.md       # Исследование моделей и инфраструктуры
+│   └── Project_template.md      # Шаблон проекта
+├── scripts/                     # Скрипты обработки
+│   ├── download_pages.py        # Скачивание страниц
+│   ├── clean_texts.py           # Очистка HTML
+│   ├── replace_terms.py         # Замена терминов
+│   └── rename_files.py          # Переименование файлов
+├── requirements.txt             # Зависимости Python
+└── README.md                    # Этот файл
 ```
 
 ## Установка
