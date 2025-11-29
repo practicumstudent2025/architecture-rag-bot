@@ -21,10 +21,10 @@ import json
 import re
 
 # Папка с базой знаний, где находятся файлы для переименования
-KNOWLEDGE_BASE_DIR = "knowledge_base"
+KNOWLEDGE_BASE_DIR = os.path.join("data", "knowledge_base")
 
 # Файл со словарем замен терминов
-TERMS_MAP_FILE = "terms_map.json"
+TERMS_MAP_FILE = os.path.join("config", "terms_map.json")
 
 
 def load_terms_map():

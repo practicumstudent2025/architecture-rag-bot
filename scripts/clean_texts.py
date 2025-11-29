@@ -17,10 +17,10 @@ from bs4 import BeautifulSoup
 import json
 
 # Папка с исходными HTML файлами (скачанные страницы)
-INPUT_DIR = "raw_pages"
+INPUT_DIR = os.path.join("data", "raw", "pages")
 
 # Папка для сохранения очищенных текстовых файлов
-OUTPUT_DIR = "cleaned_texts"
+OUTPUT_DIR = os.path.join("data", "processed", "texts")
 
 # Создаем выходную папку, если её нет
 os.makedirs(OUTPUT_DIR, exist_ok=True)

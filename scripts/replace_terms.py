@@ -23,13 +23,13 @@ import json
 import re
 
 # Папка с очищенными текстами (входные данные)
-INPUT_DIR = "cleaned_texts"
+INPUT_DIR = os.path.join("data", "processed", "texts")
 
 # Папка для сохранения обработанных текстов с замененными терминами
-OUTPUT_DIR = "knowledge_base"
+OUTPUT_DIR = os.path.join("data", "knowledge_base")
 
 # Файл со словарем замен терминов
-TERMS_MAP_FILE = "terms_map.json"
+TERMS_MAP_FILE = os.path.join("config", "terms_map.json")
 
 # Создаем выходную папку, если её нет
 os.makedirs(OUTPUT_DIR, exist_ok=True)
