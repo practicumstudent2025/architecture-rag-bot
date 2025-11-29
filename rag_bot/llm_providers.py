@@ -89,10 +89,23 @@ class YandexGPTProvider(LLMProvider):
             result = response.json()
             return result["result"]["alternatives"][0]["message"]["text"]
         except self.requests.exceptions.HTTPError as e:
+            error_detail = "Неизвестная ошибка"
+            try:
+                error_json = e.response.json()
+                error_detail = error_json.get("message", str(error_json))
+            except:
+                error_detail = e.response.text or str(e)
+            
             if e.response.status_code == 403:
-                error_detail = e.response.json().get("message", "Нет доступа. Проверьте API ключ и права доступа.")
-                raise ValueError(f"Ошибка доступа к YandexGPT: {error_detail}")
-            raise
+                raise ValueError(
+                    f"Ошибка 403 Forbidden при обращении к YandexGPT API.\n"
+                    f"Детали: {error_detail}\n\n"
+                    f"Проверьте:\n"
+                    f"1. API ключ создан с scope: yc.ai.languageModels.execute\n"
+                    f"2. Сервисному аккаунту назначена роль: ai.languageModels.user\n"
+                    f"3. Роль назначена для правильного каталога (Folder ID: {self.folder_id})"
+                )
+            raise ValueError(f"Ошибка YandexGPT API ({e.response.status_code}): {error_detail}")
 
 
 class LocalLLMProvider(LLMProvider):
